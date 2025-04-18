@@ -10,22 +10,22 @@ import tool01 from "./tool_01.png";
 import tool02 from "./tool_02.png";
 import tool03 from "./tool_03.png";
 
-const tools = [
+export const tools = [
   {
     slug: "tool1",
-    title: "Tool 1",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "OCR Tool",
+    desc: "Extract text from images using Azure AI Vision with Tesseract fallback. Supports various image formats and provides high-accuracy text extraction.",
     img: tool01,
   },
   {
     slug: "tool2",
-    title: "Tool 2",
+    title: "Tool 2",
     desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
     img: tool02,
   },
   {
     slug: "tool3",
-    title: "Tool 3",
+    title: "Tool 3",
     desc: "Duis aute irure dolor in reprehenderit in voluptate.",
     img: tool03,
   },
