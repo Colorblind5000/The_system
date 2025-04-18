@@ -1,0 +1,47 @@
+.toolsPage {
+    padding: 20px;
+  }
+  .subtitle {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: #fff;
+  }
+  .cardImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .cardContent {
+    padding: 12px;
+    background: #f0f0f0;
+  }
+  .cardTitle {
+    margin: 0 0 8px;
+    font-size: 1.2rem;
+    color: #222;
+  }
+  .cardDesc {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  @media (max-width: 640px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  
